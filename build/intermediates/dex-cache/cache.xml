@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/mirka/DailySelfie/app/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.2.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="65620ba5e576dcec2c86efa440b00d042a27383b">
+        <dex dex="/home/mirka/DailySelfie/app/build/intermediates/pre-dexed/debug/classes-c52b4f3598e2c6945dc98bbd3d474ba27ef48c52.jar" />
+    </item>
+    <item
+        jar="/home/mirka/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/home/mirka/DailySelfie/app/build/intermediates/pre-dexed/debug/library-2.4.0-18f8f4662162d90b5364c3d85feb29a2fb85daa3.jar" />
+    </item>
+    <item
+        jar="/home/mirka/DailySelfie/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/home/mirka/DailySelfie/app/build/intermediates/pre-dexed/debug/classes-2292ddfb98fd9eee8ee9ff76a0734f176c62d070.jar" />
+    </item>
+    <item
+        jar="/home/mirka/DailySelfie/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="4796f18d3750bf2bfa078407a94a7f9db35b440d">
+        <dex dex="/home/mirka/DailySelfie/app/build/intermediates/pre-dexed/debug/classes-5ed18f88eab2a34c1207fcd5890400041c1a4444.jar" />
+    </item>
+    <item
+        jar="/home/mirka/DailySelfie/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/mirka/DailySelfie/app/build/intermediates/pre-dexed/debug/classes-d9f309a338e15cbb20a88c0d6d7ea10ae936e9c6.jar" />
+    </item>
+    <item
+        jar="/home/mirka/DailySelfie/app/build/intermediates/exploded-aar/com.shamanland/fab/0.0.3/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1691e92489b1c955303e4ed5a29e80961ba6a6a7">
+        <dex dex="/home/mirka/DailySelfie/app/build/intermediates/pre-dexed/debug/classes-51c118955d65fd4e5aa85051afb444ba77b8483c.jar" />
+    </item>
+    <item
+        jar="/home/mirka/DailySelfie/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/mirka/DailySelfie/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-a74ba6fcecbb98e8493fafe032d69b34b8809327.jar" />
+    </item>
+    <item
+        jar="/home/mirka/android-sdks/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/home/mirka/DailySelfie/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-bc422a1940b5ae5a5c1882197a61d6f6406378a8.jar" />
+    </item>
+
+</items>

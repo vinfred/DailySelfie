@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.paradiseoctopus.snapphoto.view.ScreenSlidePageFragment">
+
+
+
+    <ImageView
+        android:id="@+id/full_photo_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"/>
+</FrameLayout>
+<!-- From: file:/home/mirka/DailySelfie/app/src/main/res/layout/fragment_screen_slide_page.xml -->
