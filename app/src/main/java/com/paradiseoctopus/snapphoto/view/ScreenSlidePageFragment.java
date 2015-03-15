@@ -24,7 +24,9 @@ public class ScreenSlidePageFragment extends Fragment {
 		photoView = (ImageView) rootView.findViewById(R.id.full_photo_view);
 		String photoPath = getArguments().getString(PhotoActivity.ARG_CURPHOTO);
 
-		photoView.setImageBitmap(BitmapFactory.decodeFile(photoPath));
+		BitmapFactory.Options options = new BitmapFactory.Options();
+		options.inSampleSize = 2;
+		photoView.setImageBitmap(BitmapFactory.decodeFile(photoPath, options));
 
 		return rootView;
 	}

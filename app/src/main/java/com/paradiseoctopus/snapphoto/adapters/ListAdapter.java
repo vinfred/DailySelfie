@@ -50,8 +50,11 @@ public class ListAdapter extends ArrayAdapter<String> {
     	else {
     		mViewHolder = (ViewHolder) rowView.getTag();
     	}
-    	
-    	Bitmap bitPic = BitmapFactory.decodeFile(pics.get(position));    	   
+
+	    BitmapFactory.Options options = new BitmapFactory.Options();
+	    options.inSampleSize = 4;
+	    Bitmap bitPic = BitmapFactory.decodeFile(pics.get(position), options);
+
     	mViewHolder.pic.setImageBitmap(bitPic);
     	mViewHolder.text.setText(captions.get(position));
 
