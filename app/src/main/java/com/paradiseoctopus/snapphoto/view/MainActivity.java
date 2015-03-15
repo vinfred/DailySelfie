@@ -9,6 +9,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import com.melnykov.fab.FloatingActionButton;
@@ -26,6 +27,8 @@ import java.util.Locale;
 
 public class MainActivity extends ActionBarActivity {
 	static final int REQUEST_TAKE_PHOTO = 1;
+	public static final String ARG_PHOTOS = "photos";
+	public static final String ARG_INDEX = "ind";
 
 	private String dirName = "Photo";
 	private File storageDir;
@@ -44,6 +47,8 @@ public class MainActivity extends ActionBarActivity {
 		storageDir.mkdirs();
 
 		listview = (ListView) findViewById(R.id.photo_list);
+
+
 		//fab.attachToListView(listview);
 		fab.setOnClickListener(new View.OnClickListener() {
 			@Override
@@ -123,6 +128,16 @@ public class MainActivity extends ActionBarActivity {
 		}
 		Collections.reverse(pics);
 		listview.setAdapter(new ListAdapter(this, caps, pics));
+
+		listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+			@Override
+			public void onItemClick (AdapterView<?> parent, View view, int position, long id) {
+				Intent i = new Intent(MainActivity.this, PhotoActivity.class);
+				i.putExtra(ARG_PHOTOS, pics);
+				i.putExtra(ARG_INDEX, position);
+				startActivity(i);
+			}
+		});
 	}
 
 	private File createImageFile() throws IOException {

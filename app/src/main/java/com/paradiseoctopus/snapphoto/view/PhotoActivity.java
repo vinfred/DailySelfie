@@ -10,7 +10,6 @@ import android.support.v4.view.ViewPager;
 import android.widget.ImageView;
 
 import com.paradiseoctopus.snapphoto.R;
-import com.paradiseoctopus.snapphoto.adapters.ListAdapter;
 
 import java.util.ArrayList;
 
@@ -27,8 +26,8 @@ public class PhotoActivity extends FragmentActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.photo_activity);
 
-		index = getIntent().getIntExtra(ListAdapter.ARG_INDEX, 0);
-		photoPath = getIntent().getStringArrayListExtra(ListAdapter.ARG_PHOTOS);
+		index = getIntent().getIntExtra(MainActivity.ARG_INDEX, 0);
+		photoPath = getIntent().getStringArrayListExtra(MainActivity.ARG_PHOTOS);
 
 		mPager = (ViewPager) findViewById(R.id.pager);
 		mPagerAdapter = new ScreenSlidePagerAdapter(getSupportFragmentManager());

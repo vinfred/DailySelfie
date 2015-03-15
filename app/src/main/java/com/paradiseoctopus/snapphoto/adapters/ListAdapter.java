@@ -1,7 +1,6 @@
 package com.paradiseoctopus.snapphoto.adapters;
 
 import android.content.Context;
-import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.view.LayoutInflater;
@@ -12,14 +11,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.paradiseoctopus.snapphoto.R;
-import com.paradiseoctopus.snapphoto.view.PhotoActivity;
 
 import java.util.ArrayList;
 
 public class ListAdapter extends ArrayAdapter<String> {
-
-	public static final String ARG_PHOTOS = "photos";
-	public static final String ARG_INDEX = "ind";
 	Context context;
     private final ArrayList<String> captions;
 	private final ArrayList<String> pics;    
@@ -61,7 +56,7 @@ public class ListAdapter extends ArrayAdapter<String> {
 		
     	mViewHolder.text.setText(captions.get(position));
 
-		rowView.setOnClickListener(new View.OnClickListener() {			
+		/*rowView.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
 				Intent i = new Intent(context, PhotoActivity.class);
@@ -69,7 +64,7 @@ public class ListAdapter extends ArrayAdapter<String> {
 				i.putExtra(ARG_INDEX, position);
 				context.startActivity(i);			
 			}
-		});
+		});*/
 		
 		return rowView;
     }
