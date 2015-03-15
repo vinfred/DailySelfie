@@ -29,8 +29,7 @@ public class MainActivity extends ActionBarActivity {
 	static final int REQUEST_TAKE_PHOTO = 1;
 	public static final String ARG_PHOTOS = "photos";
 	public static final String ARG_INDEX = "ind";
-
-	private String dirName = "Photo";
+	private static final String DIR_NAME = "Photo";
 	private File storageDir;
 	private ListView listview;
 	private ArrayList<String> caps;
@@ -43,13 +42,9 @@ public class MainActivity extends ActionBarActivity {
 		setContentView(R.layout.main_activity);
 		FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
 
-		storageDir = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES), dirName);
+		storageDir = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES), DIR_NAME);
 		storageDir.mkdirs();
 
-		listview = (ListView) findViewById(R.id.photo_list);
-
-
-		//fab.attachToListView(listview);
 		fab.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick (View v) {
@@ -64,16 +59,11 @@ public class MainActivity extends ActionBarActivity {
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		//getMenuInflater().inflate(R.menu.main, menu);
 		return super.onCreateOptionsMenu(menu);
 	}
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
-		// Handle action bar item clicks here. The action bar will
-		// automatically handle clicks on the Home/Up button, so long
-		// as you specify a parent activity in AndroidManifest.xml.
 		int id = item.getItemId();
 		if (id == R.id.action_camera) {
 			takePicture();

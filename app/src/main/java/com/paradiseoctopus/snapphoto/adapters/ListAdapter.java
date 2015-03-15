@@ -53,19 +53,8 @@ public class ListAdapter extends ArrayAdapter<String> {
     	
     	Bitmap bitPic = BitmapFactory.decodeFile(pics.get(position));    	   
     	mViewHolder.pic.setImageBitmap(bitPic);
-		
     	mViewHolder.text.setText(captions.get(position));
 
-		/*rowView.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				Intent i = new Intent(context, PhotoActivity.class);
-				i.putExtra(ARG_PHOTOS, pics);
-				i.putExtra(ARG_INDEX, position);
-				context.startActivity(i);			
-			}
-		});*/
-		
 		return rowView;
     }
 }
