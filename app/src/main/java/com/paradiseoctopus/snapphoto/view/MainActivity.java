@@ -41,6 +41,7 @@ public class MainActivity extends ActionBarActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main_activity);
 		FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+		listview = (ListView) findViewById(R.id.photo_list);
 
 		storageDir = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES), DIR_NAME);
 		storageDir.mkdirs();

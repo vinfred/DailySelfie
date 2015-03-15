@@ -39,15 +39,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/paradiseoctopus/snapphoto/view/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1845">
-              <caret line="60" column="51" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
+            <state vertical-scroll-proportion="0.33333334" vertical-offset="84" max-vertical-offset="1860">
+              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding>
-                <element signature="e#1823#1824#0" expanded="true" />
-                <element signature="e#3557#3865#0" expanded="true" />
-                <element signature="e#3860#3861#0" expanded="true" />
+                <element signature="e#1833#1834#0" expanded="true" />
+                <element signature="e#1878#1879#0" expanded="true" />
+                <element signature="e#3612#3920#0" expanded="true" />
+                <element signature="e#3915#3916#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,10 +64,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PhotoActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PhotoActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/paradiseoctopus/snapphoto/view/PhotoActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6770833" vertical-offset="0" max-vertical-offset="795">
+            <state vertical-scroll-proportion="0.0" vertical-offset="129" max-vertical-offset="795">
               <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding />
             </state>
@@ -147,8 +148,9 @@
     </FindUsagesManager>
   </component>
   <component name="GenerateSignedApkSettings">
-    <option name="KEY_STORE_PATH" value="$USER_HOME$/key.key" />
-    <option name="KEY_ALIAS" value="my key" />
+    <option name="KEY_STORE_PATH" value="$USER_HOME$/OctopusKey.key" />
+    <option name="KEY_ALIAS" value="key" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
   </component>
   <component name="GradleLocalSettings">
     <option name="tasksExpandState">
@@ -709,9 +711,9 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/main_activity.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/paradiseoctopus/snapphoto/view/PhotoActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/paradiseoctopus/snapphoto/adapters/ListAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/paradiseoctopus/snapphoto/view/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/row.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/paradiseoctopus/snapphoto/view/ScreenSlidePageFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/paradiseoctopus/snapphoto/view/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -969,7 +971,7 @@
     <property name="FullScreen" value="false" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.56.101:5555" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD_for_Nexus_4_by_Google" />
-    <property name="last_opened_file_path" value="$USER_HOME$/key.key" />
+    <property name="last_opened_file_path" value="$USER_HOME$/OctopusKey.key" />
     <property name="ExportApk.ApkPath" value="$PROJECT_DIR$/app" />
     <property name="ExportApk.Flavors" value="" />
     <property name="ExportApk.BuildType" value="release" />
@@ -1177,7 +1179,7 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1251,9 +1253,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1965">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
-            <element signature="e#1823#1824#0" expanded="true" />
-            <element signature="e#3557#3865#0" expanded="true" />
-            <element signature="e#3860#3861#0" expanded="true" />
+            <element signature="e#1833#1834#0" expanded="true" />
+            <element signature="e#1878#1879#0" expanded="true" />
+            <element signature="e#3612#3920#0" expanded="true" />
+            <element signature="e#3915#3916#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1340,9 +1343,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="2055">
           <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
-            <element signature="e#1823#1824#0" expanded="true" />
-            <element signature="e#3557#3865#0" expanded="true" />
-            <element signature="e#3860#3861#0" expanded="true" />
+            <element signature="e#1833#1834#0" expanded="true" />
+            <element signature="e#1878#1879#0" expanded="true" />
+            <element signature="e#3612#3920#0" expanded="true" />
+            <element signature="e#3915#3916#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1385,9 +1389,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="2010">
           <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
           <folding>
-            <element signature="e#1823#1824#0" expanded="true" />
-            <element signature="e#3557#3865#0" expanded="true" />
-            <element signature="e#3860#3861#0" expanded="true" />
+            <element signature="e#1833#1834#0" expanded="true" />
+            <element signature="e#1878#1879#0" expanded="true" />
+            <element signature="e#3612#3920#0" expanded="true" />
+            <element signature="e#3915#3916#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1411,9 +1416,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="2010">
           <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
           <folding>
-            <element signature="e#1823#1824#0" expanded="true" />
-            <element signature="e#3557#3865#0" expanded="true" />
-            <element signature="e#3860#3861#0" expanded="true" />
+            <element signature="e#1833#1834#0" expanded="true" />
+            <element signature="e#1878#1879#0" expanded="true" />
+            <element signature="e#3612#3920#0" expanded="true" />
+            <element signature="e#3915#3916#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1437,9 +1443,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1710">
           <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
           <folding>
-            <element signature="e#1823#1824#0" expanded="true" />
-            <element signature="e#3557#3865#0" expanded="true" />
-            <element signature="e#3860#3861#0" expanded="true" />
+            <element signature="e#1833#1834#0" expanded="true" />
+            <element signature="e#1878#1879#0" expanded="true" />
+            <element signature="e#3612#3920#0" expanded="true" />
+            <element signature="e#3915#3916#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1514,35 +1521,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/paradiseoctopus/snapphoto/view/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1845">
-          <caret line="60" column="51" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
-          <folding>
-            <element signature="e#1823#1824#0" expanded="true" />
-            <element signature="e#3557#3865#0" expanded="true" />
-            <element signature="e#3860#3861#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/paradiseoctopus/snapphoto/adapters/ListAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="219" max-vertical-offset="795">
           <caret line="54" column="47" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.692307" vertical-offset="0" max-vertical-offset="450">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/paradiseoctopus/snapphoto/view/ScreenSlidePageFragment.java">
@@ -1577,11 +1561,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.692307" vertical-offset="0" max-vertical-offset="450">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/paradiseoctopus/snapphoto/view/PhotoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6770833" vertical-offset="0" max-vertical-offset="795">
+        <state vertical-scroll-proportion="0.0" vertical-offset="129" max-vertical-offset="795">
           <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/paradiseoctopus/snapphoto/view/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="84" max-vertical-offset="1860">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="e#1833#1834#0" expanded="true" />
+            <element signature="e#1878#1879#0" expanded="true" />
+            <element signature="e#3612#3920#0" expanded="true" />
+            <element signature="e#3915#3916#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
