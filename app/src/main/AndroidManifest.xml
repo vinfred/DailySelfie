@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="15"
-        android:targetSdkVersion="21" />
+        android:targetSdkVersion="23" />
     
     <uses-feature 
         android:name="android.hardware.camera"
@@ -22,13 +22,14 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/Theme.MyTheme" >
+
         <activity
             android:name="com.paradiseoctopus.snapphoto.view.MainActivity"
             android:label="@string/app_name"
             android:configChanges="orientation|screenSize" >
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -38,6 +39,8 @@
             android:label="@string/app_name"
             android:configChanges="orientation|screenSize" >
         </activity>
+
+        <receiver android:name="com.paradiseoctopus.snapphoto.view.AlarmNotificationReceiver"/>
 
             
 
