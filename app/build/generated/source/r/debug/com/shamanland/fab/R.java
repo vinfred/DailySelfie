@@ -17,13 +17,13 @@ public final class R {
 		public static final int floatingActionButtonStyle = 0x7f010001;
 	}
 	public static final class dimen {
-		public static final int floating_action_button_margin_mini = 0x7f080032;
-		public static final int floating_action_button_margin_mini_minus = 0x7f080033;
-		public static final int floating_action_button_margin_normal = 0x7f080034;
-		public static final int floating_action_button_margin_normal_minus = 0x7f080035;
-		public static final int floating_action_button_shadow_radius = 0x7f080036;
-		public static final int floating_action_button_size_mini = 0x7f080037;
-		public static final int floating_action_button_size_normal = 0x7f080038;
+		public static final int floating_action_button_margin_mini = 0x7f070032;
+		public static final int floating_action_button_margin_mini_minus = 0x7f070033;
+		public static final int floating_action_button_margin_normal = 0x7f070034;
+		public static final int floating_action_button_margin_normal_minus = 0x7f070035;
+		public static final int floating_action_button_shadow_radius = 0x7f070036;
+		public static final int floating_action_button_size_mini = 0x7f070037;
+		public static final int floating_action_button_size_normal = 0x7f070038;
 	}
 	public static final class drawable {
 		public static final int com_shamanland_fab_circle_mini = 0x7f020033;
@@ -31,8 +31,8 @@ public final class R {
 		public static final int com_shamanland_fab_shadow = 0x7f020035;
 	}
 	public static final class id {
-		public static final int mini = 0x7f07000a;
-		public static final int normal = 0x7f070000;
+		public static final int mini = 0x7f080013;
+		public static final int normal = 0x7f08000a;
 	}
 	public static final class style {
 		public static final int FloatingActionButton = 0x7f0b0061;

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/mirka/DailySelfie/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/mirka/Programming/DailySelfie/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
-    <!-- From: file:/home/mirka/DailySelfie/app/build/intermediates/exploded-aar/com.shamanland/fab/0.0.3/res/values/values.xml -->
+    <!-- From: file:/home/mirka/Programming/DailySelfie/app/build/intermediates/exploded-aar/com.shamanland/fab/0.0.3/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="floatingActionButtonStyle"/>
-    <!-- From: file:/home/mirka/DailySelfie/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/mirka/Programming/DailySelfie/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <attr format="dimension" name="height"/>
     <attr format="boolean" name="isLightTheme"/>
@@ -21,10 +21,10 @@
     <color name="abc_search_url_text_normal">#7fa87f</color>
     <color name="abc_search_url_text_pressed">@android:color/black</color>
     <color name="abc_search_url_text_selected">@android:color/black</color>
-    <!-- From: file:/home/mirka/DailySelfie/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/home/mirka/Programming/DailySelfie/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="accent">#FFAB00</color>
-    <!-- From: file:/home/mirka/DailySelfie/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/mirka/Programming/DailySelfie/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
@@ -32,6 +32,11 @@
     <color name="background_floating_material_light">#ffeeeeee</color>
     <color name="background_material_dark">#ff303030</color>
     <color name="background_material_light">#ffeeeeee</color>
+    <!-- From: file:/home/mirka/Programming/DailySelfie/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="black">#000000</color>
+    <!-- From: file:/home/mirka/Programming/DailySelfie/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <eat-comment/>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
     <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
@@ -44,52 +49,53 @@
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
-    <!-- From: file:/home/mirka/DailySelfie/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/home/mirka/Programming/DailySelfie/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="divider">#B6B6B6</color>
-    <!-- From: file:/home/mirka/DailySelfie/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/mirka/Programming/DailySelfie/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
     <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
-    <!-- From: file:/home/mirka/DailySelfie/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/home/mirka/Programming/DailySelfie/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="icons">#FFFFFF</color>
-    <!-- From: file:/home/mirka/DailySelfie/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/mirka/Programming/DailySelfie/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="link_text_material_dark">@color/material_deep_teal_200</color>
     <color name="link_text_material_light">@color/material_deep_teal_500</color>
-    <!-- From: file:/home/mirka/DailySelfie/app/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.2.0/res/values/values.xml -->
+    <!-- From: file:/home/mirka/Programming/DailySelfie/app/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="material_blue_500">#5677fc</color>
     <color name="material_blue_600">#4e6cef</color>
-    <!-- From: file:/home/mirka/DailySelfie/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/mirka/Programming/DailySelfie/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="material_blue_grey_800">#ff37474f</color>
     <color name="material_blue_grey_900">#ff263238</color>
     <color name="material_blue_grey_950">#ff21272b</color>
     <color name="material_deep_teal_200">#ff80cbc4</color>
     <color name="material_deep_teal_500">#ff009688</color>
-    <!-- From: file:/home/mirka/DailySelfie/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/home/mirka/Programming/DailySelfie/app/src/main/res/values/colors.xml -->
     <eat-comment/>
+    <color name="notification_blue">#5677fc</color>
     <color name="primary">#3F51B5</color>
     <color name="primary_dark">#303F9F</color>
-    <!-- From: file:/home/mirka/DailySelfie/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/mirka/Programming/DailySelfie/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="primary_dark_material_dark">#ff000000</color>
     <color name="primary_dark_material_light">#ff757575</color>
-    <!-- From: file:/home/mirka/DailySelfie/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/home/mirka/Programming/DailySelfie/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="primary_light">#C5CAE9</color>
-    <!-- From: file:/home/mirka/DailySelfie/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/mirka/Programming/DailySelfie/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="primary_material_dark">#ff212121</color>
     <color name="primary_material_light">#ffbdbdbd</color>
-    <!-- From: file:/home/mirka/DailySelfie/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/home/mirka/Programming/DailySelfie/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="primary_text">#212121</color>
-    <!-- From: file:/home/mirka/DailySelfie/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/mirka/Programming/DailySelfie/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="primary_text_default_material_dark">#ffffffff</color>
     <color name="primary_text_default_material_light">#de000000</color>
@@ -97,10 +103,10 @@
     <color name="primary_text_disabled_material_light">#39000000</color>
     <color name="ripple_material_dark">#40ffffff</color>
     <color name="ripple_material_light">#40000000</color>
-    <!-- From: file:/home/mirka/DailySelfie/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/home/mirka/Programming/DailySelfie/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="secondary_text">#727272</color>
-    <!-- From: file:/home/mirka/DailySelfie/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/mirka/Programming/DailySelfie/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
     <color name="secondary_text_default_material_light">#8a000000</color>
@@ -169,11 +175,11 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
-    <!-- From: file:/home/mirka/DailySelfie/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/home/mirka/Programming/DailySelfie/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/home/mirka/DailySelfie/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/mirka/Programming/DailySelfie/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <item name="dialog_fixed_height_major" type="dimen">80%</item>
     <item name="dialog_fixed_height_minor" type="dimen">100%</item>
@@ -181,14 +187,14 @@
     <item name="dialog_fixed_width_minor" type="dimen">320dp</item>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
-    <!-- From: file:/home/mirka/DailySelfie/app/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.2.0/res/values/values.xml -->
+    <!-- From: file:/home/mirka/Programming/DailySelfie/app/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.2.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="fab_elevation_lollipop">8dp</dimen>
     <dimen name="fab_scroll_threshold">4dp</dimen>
     <dimen name="fab_shadow_size">12dp</dimen>
     <dimen name="fab_size_mini">40dp</dimen>
     <dimen name="fab_size_normal">56dp</dimen>
-    <!-- From: file:/home/mirka/DailySelfie/app/build/intermediates/exploded-aar/com.shamanland/fab/0.0.3/res/values/values.xml -->
+    <!-- From: file:/home/mirka/Programming/DailySelfie/app/build/intermediates/exploded-aar/com.shamanland/fab/0.0.3/res/values/values.xml -->
     <eat-comment/>
     <dimen name="floating_action_button_margin_mini">26dp</dimen>
     <dimen name="floating_action_button_margin_mini_minus">-26dp</dimen>
@@ -197,7 +203,7 @@
     <dimen name="floating_action_button_shadow_radius">6dp</dimen>
     <dimen name="floating_action_button_size_mini">40dp</dimen>
     <dimen name="floating_action_button_size_normal">56dp</dimen>
-    <!-- From: file:/home/mirka/DailySelfie/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/mirka/Programming/DailySelfie/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <item name="action_bar_activity_content" type="id"/>
     <item name="action_bar_spinner" type="id"/>
@@ -225,18 +231,18 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <!-- From: file:/home/mirka/DailySelfie/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/mirka/Programming/DailySelfie/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_camera">Take photo</string>
     <string name="app_name">Snap A Photo</string>
-    <!-- From: file:/home/mirka/DailySelfie/app/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.2.0/res/values/values.xml -->
+    <!-- From: file:/home/mirka/Programming/DailySelfie/app/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.2.0/res/values/values.xml -->
     <eat-comment/>
     <string name="define_FloatingActionButton"/>
-    <!-- From: file:/home/mirka/DailySelfie/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/mirka/Programming/DailySelfie/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hello_world">Hello world!</string>
-    <!-- From: file:/home/mirka/DailySelfie/app/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.2.0/res/values/values.xml -->
+    <!-- From: file:/home/mirka/Programming/DailySelfie/app/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.2.0/res/values/values.xml -->
     <eat-comment/>
     <string name="library_FloatingActionButton_author">Oleksandr Melnykov</string>
     <string name="library_FloatingActionButton_authorWebsite">https://github.com/makovkastar/FloatingActionButton</string>
@@ -247,7 +253,7 @@
     <string name="library_FloatingActionButton_libraryWebsite">https://github.com/makovkastar/FloatingActionButton</string>
     <string name="library_FloatingActionButton_licenseId">mit</string>
     <string name="library_FloatingActionButton_repositoryLink">https://github.com/makovkastar/FloatingActionButton</string>
-    <!-- From: file:/home/mirka/DailySelfie/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/mirka/Programming/DailySelfie/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance">
         <item name="android:textColor">?android:textColorPrimary</item>
@@ -1001,7 +1007,7 @@
         <item name="android:scaleType">center</item>
         <item name="android:background">?attr/selectableItemBackground</item>
     </style>
-    <!-- From: file:/home/mirka/DailySelfie/app/build/intermediates/exploded-aar/com.shamanland/fab/0.0.3/res/values/values.xml -->
+    <!-- From: file:/home/mirka/Programming/DailySelfie/app/build/intermediates/exploded-aar/com.shamanland/fab/0.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="FloatingActionButton" parent="android:Widget.ImageButton">
         <item name="floatingActionButtonSize">normal</item>
@@ -1021,7 +1027,7 @@
     <style name="FloatingActionButton.Mini" parent="FloatingActionButton">
         <item name="floatingActionButtonSize">mini</item>
     </style>
-    <!-- From: file:/home/mirka/DailySelfie/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/mirka/Programming/DailySelfie/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
@@ -1249,7 +1255,7 @@
         <item name="windowActionBar">false</item>
         <item name="android:windowNoTitle">true</item>
     </style>
-    <!-- From: file:/home/mirka/DailySelfie/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/home/mirka/Programming/DailySelfie/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="Theme.MyTheme" parent="Theme.AppCompat.Light">
     <!-- customize the color palette -->
@@ -1258,7 +1264,7 @@
 	    <item name="colorAccent">@color/accent</item>
 
 	</style>
-    <!-- From: file:/home/mirka/DailySelfie/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/mirka/Programming/DailySelfie/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="ThemeOverlay.AppCompat" parent="Base.ThemeOverlay.AppCompat"/>
     <style name="ThemeOverlay.AppCompat.ActionBar" parent="Base.ThemeOverlay.AppCompat.ActionBar"/>

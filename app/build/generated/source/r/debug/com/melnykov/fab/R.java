@@ -15,23 +15,23 @@ public final class R {
 		public static final int fab_type = 0x7f01002d;
 	}
 	public static final class color {
-		public static final int material_blue_500 = 0x7f06001f;
-		public static final int material_blue_600 = 0x7f060020;
+		public static final int material_blue_500 = 0x7f060020;
+		public static final int material_blue_600 = 0x7f060021;
 	}
 	public static final class dimen {
-		public static final int fab_elevation_lollipop = 0x7f08002d;
-		public static final int fab_scroll_threshold = 0x7f08002e;
-		public static final int fab_shadow_size = 0x7f08002f;
-		public static final int fab_size_mini = 0x7f080030;
-		public static final int fab_size_normal = 0x7f080031;
+		public static final int fab_elevation_lollipop = 0x7f07002d;
+		public static final int fab_scroll_threshold = 0x7f07002e;
+		public static final int fab_shadow_size = 0x7f07002f;
+		public static final int fab_size_mini = 0x7f070030;
+		public static final int fab_size_normal = 0x7f070031;
 	}
 	public static final class drawable {
 		public static final int shadow = 0x7f02003d;
 		public static final int shadow_mini = 0x7f02003e;
 	}
 	public static final class id {
-		public static final int mini = 0x7f07000a;
-		public static final int normal = 0x7f070000;
+		public static final int mini = 0x7f080013;
+		public static final int normal = 0x7f08000a;
 	}
 	public static final class string {
 		public static final int define_FloatingActionButton = 0x7f0a0012;
